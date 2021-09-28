@@ -1,0 +1,97 @@
+body {
+  /* background-color: rgb(137, 193, 245); */
+  background-image: url(img/alexandr-podvalny-n_Jb_d8O43Q-unsplash.jpg);
+  background-size: cover;
+}
+.jumbotron {
+  background-color: rgb(178, 199, 250);
+  padding: 50px;
+  /* margin: 50px; */
+  text-align: center;
+  color: rgb(122, 83, 25);
+  box-shadow: 1px 1px 1px 1px gray;
+  /* border: 2px solid black; */
+  border-radius: 3px;
+}
+.lead {
+  margin-bottom: -20px;
+}
+.navbar {
+  background-color: rgb(115, 146, 247);
+  font-family: "Zilla Slab", serif;
+}
+.display-4,
+.lead {
+  font-family: "Akaya Telivigala", cursive;
+}
+.pendahuluan {
+  margin: 30px;
+  background-color: rgb(169, 202, 224);
+  padding: 20px;
+  text-align: justify;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius: 3px;
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
+}
+.console {
+  text-align: justify;
+  margin: 50px;
+  padding: 20px;
+  height: 100%;
+  background-color: rgb(174, 174, 236);
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 1px gray;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+button {
+  width: auto;
+  height: auto;
+  color: rgb(241, 158, 158);
+  background-color: darkgreen;
+}
+.console .reset {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.console .input {
+  padding-bottom: 20px;
+}
+.hasil {
+  margin-top: 10px;
+}
+.console .hasil p {
+  background-color: darkgrey;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.console .hasil span {
+  display: block;
+}
+footer {
+  background-color: rgb(130, 144, 180);
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+footer .gambar-footer {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-70px, 0);
+}
+footer a img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+footer a img:hover {
+  padding: 5px;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Barlow+Condensed:ital,wght@1,200&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Barlow+Condensed:ital,wght@1,200&family=Zilla+Slab&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Redressed&display=swap" rel="stylesheet" />
+
+    <!-- Title -->
+    <title>hitung-penghasilan</title>
+  </head>
+  <body>
+    <!-- Navs -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="https://www.instagram.com/akbarpratamaputr" target="blank">Akbar Pratama</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#satu">Kalkulasi 10-20-30-40</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#dua">Kalkulasi 10-10-30-50</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navs -->
+
+    <!-- Carousel -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Hitung Penghasilan Yuk!</h1>
+        <br />
+        <p class="lead"></p>
+      </div>
+    </div>
+    <!-- Akhir Carousel -->
+
+    <!-- Content Pendahuluan -->
+    <div class="pendahuluan">
+      <p>
+        Halo dan selamat datang di <b>hitung-penghasilan</b>. Web ini memberikan anda akses untuk pengkalkulasian pendapatan atau penghasilan anda yang anda inputkan di dalam kotak input. Dengan adanya web ini, anda dapat langsung menginput
+        pendapatan atau penghasilan anda dan secara otomatis melakukan pengkalkulasian inputan pendapatan atau penghasilan anda. Di <b>hitung-penghasilan</b>
+        menyediakan 2 pilihan pengkalkulasian, yaitu dengan skema pembagian 10 20 30 40, dan skema pembagian 10 10 30 50. Anda bebas memilihi inputan mana yang sesuai menurut anda. Selamat mencoba!!!.
+      </p>
+    </div>
+    <!-- Akhir Content Pendahuluan -->
+
+    <!-- Content Utama -->
+    <!-- 10 20 30 40 -->
+    <div id="satu" class="console">
+      <p>
+        Ini adalah besaran perhitungan pendapatan yang banyak direkomendasikan oleh berbagai pihak. Anda bisa mencoba menginputkan besaran pendapatan atau penghasilan anda untuk mengetahui besaran berapa yang dihasilkan menggunakan metode
+        10 20 30 40 ini.
+      </p>
+
+      <div class="input">
+        <label for="#">Input : </label>
+        <input class="input_1" type="text" placeholder="Masukan Sejumlah Angka" />
+        <button class="calculate_1" type="submit">Calculate</button>
+      </div>
+
+      <div class="hasil">
+        <label for="#">Besar 10% : </label>
+        <p class="hasil_1"></p>
+        <span class="note_1"></span>
+      </div>
+      <div class="hasil">
+        <label for="#">Besar 20% : </label>
+        <p class="hasil_2"></p>
+        <span class="note_2"></span>
+      </div>
+      <div class="hasil">
+        <label for="#">Besar 30% : </label>
+        <p class="hasil_3"></p>
+        <span class="note_3"></span>
+      </div>
+      <div class="hasil">
+        <label for="#">Besar 40% : </label>
+        <p class="hasil_4"></p>
+        <span class="note_4"></span>
+      </div>
+
+      <button onClick="window.location.reload();" class="reset" type="reset">Reset</button>
+
+      <p>Perlu diketahui bahwa besaran yang dikalkulasikan disini hanyalah bersifat acuan sementara dan kembali bergantung pada keputusan masing - masing setiap individu.</p>
+    </div>
+    <!-- Akhir 10 20 30 40 -->
+
+    <!-- 10 10 30 50 -->
+    <div id="dua" class="console">
+      <p>
+        Ini adalah besaran perhitungan pendapatan yang juga banyak direkomendasikan oleh berbagai pihak. Anda bisa mencoba menginputkan besaran pendapatan atau penghasilan anda untuk mengetahui besaran berapa yang dihasilkan menggunakan
+        metode 10 10 30 50 ini.
+      </p>
+
+      <div class="input">
+        <label for="#">Input : </label>
+        <input class="input_2" type="text" placeholder="Masukan Sejumlah Angka" />
+        <button class="calculate_2" type="submit">Calculate</button>
+      </div>
+
+      <div class="hasil">
+        <label for="#">Besar 10% : </label>
+        <p class="hasil_1_2"></p>
+        <span class="note_1_2"></span>
+      </div>
+      <div class="hasil">
+        <label for="#">Besar 10% : </label>
+        <p class="hasil_2_2"></p>
+        <span class="note_2_2"></span>
+      </div>
+      <div class="hasil">
+        <label for="#">Besar 30% : </label>
+        <p class="hasil_3_2"></p>
+        <span class="note_3_2"></span>
+      </div>
+      <div class="hasil">
+        <label for="#">Besar 50% : </label>
+        <p class="hasil_4_2"></p>
+        <span class="note_4_2"></span>
+      </div>
+
+      <button onClick="window.location.reload();" class="reset" type="reset">Reset</button>
+
+      <p>Perlu diketahui bahwa besaran yang dikalkulasikan disini hanyalah bersifat acuan sementara dan kembali bergantung pada keputusan masing - masing setiap individu.</p>
+    </div>
+    <!-- Akhir 10 10 30 50 -->
+    <!-- Akhir Content Utama -->
+
+    <footer>
+      <div class="gambar-footer">
+        <a href="https://www.instagram.com/akbarpratamaputr" target="blank"><img src="img/instagram_black_logo_icon_147122.png" alt="" /></a>
+        <a href="https://api.whatsapp.com/send?phone=6285885465177" target="blank"><img src="img/whatsapp_black_logo_icon_147050.png" alt="" /></a>
+      </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Script External -->
+    <script src="script.js"></script>
+    <!-- Akhir Script External -->
+  </body>
+</html>
